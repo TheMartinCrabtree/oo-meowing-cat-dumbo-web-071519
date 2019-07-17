@@ -2,7 +2,11 @@
 class Cat 
   attr_accessor :name 
   
-  def in
+  attr_reader :meow
+  
+  def meow
+    puts "meow!"
+  end
   
   
 end
